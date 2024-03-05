@@ -11,6 +11,7 @@ body {
 
 h1 {
   margin-top: 30px;
+  font-size: 3rem;
 }
 
 .main {
@@ -38,18 +39,43 @@ h1 {
   border: none;
   box-shadow: 0 0 0.5rem black;
   font-size: 6vmin;
-  background-color: #F1F5A8;
+  background-color: #f1f5a8;
   color: black;
   cursor: pointer;
 }
 
-#reset{
-    border: none;
-    border-radius: 1rem;
-    padding: 0.9rem;
-    font-size: 2.5vmin;
-    margin-top: 20px;
-    cursor: pointer;
-    background-color: #D2D180;
-    box-shadow: 0 0 0.5rem black;
+#reset {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.9rem;
+  font-size: 2.5vmin;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #d2d180;
+  box-shadow: 0 0 0.5rem black;
+}
+
+.new-game {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.9rem;
+  font-size: 5vmin;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #d2d180;
+  box-shadow: 0 0 0.5rem black;
+}
+
+p#msg {
+  color: black;
+  font-size: 15vmin;
+}
+
+.winner {
+  margin-top: 30vmin;
+  margin-bottom: 40vmin;
+}
+
+.hide {
+  display: none;
 }
